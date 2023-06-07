@@ -1,1 +1,84 @@
 /*Schrijf hier jouw CSS*/
+
+/*css reset*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*Global styles*/
+
+/* -------------UITWERKING OPDRACHTEN!!-----------*/
+
+/*<!-- O P D R A C H T  1 -->*/
+
+.opdracht-1 .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*<!-- O P D R A C H T  2 -->*/
+.opdracht-2 .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.opdracht-2 .flex-container > * {
+    flex-basis: 100%;
+}
+
+/*<!-- O P D R A C H T  3 -->*/
+.opdracht-3 .flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #E6EAEB;
+}
+.opdracht-3 .item-1 {
+    align-self: flex-start;
+}
+.opdracht-3 .item-2 {
+    background-color: #8CB4B9;
+    align-self: center;
+}
+.opdracht-3 .item-3 {
+    align-self: flex-end;
+}
+
+/*<!-- O P D R A C H T  4 -->*/
+.opdracht-4 .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.opdracht-4 .flex-container > * {
+    margin: 5px;
+}
+
+/*<!-- O P D R A C H T  5 -->*/
+.opdracht-5 .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.opdracht-5 .flex-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #8CB4B9;
+}
+
+.opdracht-5 .flex-row:nth-of-type(1) {
+    align-items: flex-start;
+}
+.opdracht-5 .flex-row:nth-of-type(2) {
+    align-items: center;
+}
+.opdracht-5 .flex-row:nth-of-type(3) {
+    align-items: flex-end;
+}
